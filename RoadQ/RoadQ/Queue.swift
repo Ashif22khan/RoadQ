@@ -31,7 +31,7 @@ public struct Queue<T> {
     public mutating func enqueue(element: T) {
         array.append(element)
         if array.count > _cap {
-            self.dequeue()
+            let _ = self.dequeue()
         }
     }
     

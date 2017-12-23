@@ -7,12 +7,12 @@
 //
 
 import Foundation
-@objc public enum RQType: Int{
+@objc public enum RCType: Int{
     case Smooth
     case Rough
     case Hump
 }
-@objc public class RQModel : NSObject {
+@objc public class RCModel : NSObject {
     public var type: RCType = .Smooth
     public var tripID: String = ""
     public var pattern: String = ""

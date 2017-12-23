@@ -8,7 +8,7 @@
 
 import Foundation
 
-class RQNeuralNetworkWeightFileProcessor {
+class NeuralNetworkWeightFileProcessor {
     
     /*class func loadWeights(weightsFileName: String) -> [[Double]] {
         guard let weightRawStrings = rawWeightStringsFromContentsOfFileWithName(weightsFileName) else {

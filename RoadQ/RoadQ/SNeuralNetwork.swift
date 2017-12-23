@@ -10,24 +10,24 @@ import Accelerate
 import Foundation
 import CoreMotion
 
-protocol RQNeuralNetworkDelegate{
+protocol SNeuralNetworkDelegate{
     func significantConfidence(confidence:Double, arr:[Double]);
     func predictionStream(confidence:Double);
     func networkCompletedLoadingWeights();
 }
 
-class RQNeuralNetwork : NSObject{
+class SNeuralNetwork : NSObject{
     private let patternSize = 50
     private let weightVectors: [[Double]]
     private var azQ = Queue<Double>(cap: 50)
-    var delegate:RQNeuralNetworkDelegate?
+    var delegate:SNeuralNetworkDelegate?
     private var operationQueue:OperationQueue
     private let weightsFileName: String
     
     init(delegate:SNeuralNetworkDelegate) {
         self.delegate = delegate
         self.weightsFileName = "Model23"
-        self.weightVectors = RQNeuralNetworkWeightFileProcessor().loadWeights(weightsFileName: weightsFileName)
+        self.weightVectors = NeuralNetworkWeightFileProcessor().loadWeights(weightsFileName: weightsFileName)
         self.delegate?.networkCompletedLoadingWeights()
         self.operationQueue = OperationQueue();
     }

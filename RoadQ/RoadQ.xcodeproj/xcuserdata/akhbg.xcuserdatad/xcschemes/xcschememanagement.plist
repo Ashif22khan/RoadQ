@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>RoadQ.xcscheme</key>
+		<key>RoadConditions.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>RoadQUniversal.xcscheme</key>
+		<key>RoadConditionsUniversal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -18,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3F44B3321E29502500FAD1F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F44B34B1E2951F600FAD1F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

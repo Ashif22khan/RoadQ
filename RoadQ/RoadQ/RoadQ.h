@@ -1,19 +1,20 @@
 //
-//  RoadQ.h
-//  RoadQ
+//  RoadConditions.h
+//  RoadConditions
 //
-//  Created by ashif khan on 18/11/17.
-//  Copyright © 2017 ashif khan. All rights reserved.
+//  Created by Ashif Khan on 13/01/17.
+//  Copyright © 2017 Local. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for RoadQ.
-FOUNDATION_EXPORT double RoadQVersionNumber;
+//! Project version number for RoadConditions.
+FOUNDATION_EXPORT double RoadConditionsVersionNumber;
 
-//! Project version string for RoadQ.
-FOUNDATION_EXPORT const unsigned char RoadQVersionString[];
+//! Project version string for RoadConditions.
+FOUNDATION_EXPORT const unsigned char RoadConditionsVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <RoadQ/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <RoadConditions/PublicHeader.h>
+
 #import <RoadQ/AccelerometerFilter.h>
 
